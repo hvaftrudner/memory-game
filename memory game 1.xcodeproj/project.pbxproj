@@ -13,6 +13,8 @@
 		E015BAA0257BC7B500829F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E015BA9E257BC7B500829F7D /* Main.storyboard */; };
 		E015BAA2257BC7B600829F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E015BAA1257BC7B600829F7D /* Assets.xcassets */; };
 		E015BAA5257BC7B600829F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E015BAA3257BC7B600829F7D /* LaunchScreen.storyboard */; };
+		E015BAAF257BCB4600829F7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015BAAE257BCB4600829F7D /* Card.swift */; };
+		E015BAB2257BD49F00829F7D /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015BAB1257BD49F00829F7D /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E015BAA1257BC7B600829F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E015BAA4257BC7B600829F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E015BAA6257BC7B600829F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E015BAAE257BCB4600829F7D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E015BAB1257BD49F00829F7D /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E015BA98257BC7B500829F7D /* AppDelegate.swift */,
 				E015BA9A257BC7B500829F7D /* SceneDelegate.swift */,
 				E015BA9C257BC7B500829F7D /* ViewController.swift */,
+				E015BAB1257BD49F00829F7D /* CardCell.swift */,
+				E015BAAE257BCB4600829F7D /* Card.swift */,
 				E015BA9E257BC7B500829F7D /* Main.storyboard */,
 				E015BAA1257BC7B600829F7D /* Assets.xcassets */,
 				E015BAA3257BC7B600829F7D /* LaunchScreen.storyboard */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E015BAB2257BD49F00829F7D /* CardCell.swift in Sources */,
 				E015BA9D257BC7B500829F7D /* ViewController.swift in Sources */,
 				E015BA99257BC7B500829F7D /* AppDelegate.swift in Sources */,
 				E015BA9B257BC7B500829F7D /* SceneDelegate.swift in Sources */,
+				E015BAAF257BCB4600829F7D /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.memory-game-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.memory-game-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
